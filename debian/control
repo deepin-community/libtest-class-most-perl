@@ -1,0 +1,27 @@
+Source: libtest-class-most-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Florian Schlichting <fschlich@zedat.fu-berlin.de>
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 8),
+               libmodule-build-perl (>= 0.400000),
+Build-Depends-Indep: perl,
+                     libtest-class-perl (>= 0.38),
+                     libtest-most-perl (>= 0.31)
+Standards-Version: 3.9.6
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libtest-class-most-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libtest-class-most-perl.git
+Homepage: https://metacpan.org/release/Test-Class-Most
+Testsuite: autopkgtest-pkg-perl
+
+Package: libtest-class-most-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libtest-class-perl (>= 0.38),
+         libtest-most-perl (>= 0.31)
+Description: module to reduce boilerplate code when testing classes
+ Test::Class::Most acts as a combination of Test::Class, Test::Most and
+ Modern::Perl, thus saving a lot of typing boilerplate code when writing
+ tests for Perl classes.
+

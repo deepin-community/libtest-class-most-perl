@@ -1,0 +1,61 @@
+libtest-class-most-perl (0.08-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 02:21:52 +0100
+
+libtest-class-most-perl (0.08-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Make (build) dependency on libtest-class-perl versioned.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * debian/control: update Module::Build dependency.
+  * Add debian/upstream/metadata
+  * Move libmodule-build-perl to Build-Depends.
+  * Declare compliance with Debian Policy 3.9.6.
+  * Mark package as autopkgtest-able.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 29 May 2015 20:16:49 +0200
+
+libtest-class-most-perl (0.07-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
+
+  [ Florian Schlichting ]
+  * Imported Upstream version 0.07.
+  * Bumped Standards-Version to 3.9.4 (use copyright-format 1.0).
+  * Bumped (build-)dependency on libtest-most-perl to 0.31. "This fixes
+    prototype warnings when using Moose."
+  * Bumped build-dependency on Module::Build to 0.4.
+
+ -- Florian Schlichting <fschlich@zedat.fu-berlin.de>  Thu, 04 Oct 2012 22:56:18 +0200
+
+libtest-class-most-perl (0.06-1) unstable; urgency=low
+
+  * Imported Upstream version 0.06.
+  * Added build-dependency on Module::Build 0.38.
+  * Improved short description a little.
+
+ -- Florian Schlichting <fschlich@zedat.fu-berlin.de>  Thu, 12 Jan 2012 11:16:52 +0000
+
+libtest-class-most-perl (0.05-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #644331)
+
+ -- Florian Schlichting <fschlich@zedat.fu-berlin.de>  Wed, 05 Oct 2011 12:47:36 +0000
